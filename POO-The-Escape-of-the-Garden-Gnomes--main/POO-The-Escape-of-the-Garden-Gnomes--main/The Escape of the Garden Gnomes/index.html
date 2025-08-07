@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Corrida de Gnomos</title>
+</head>
+<body>
+    <h1>Corrida de Gnomos</h1>
+    <form id="gnome-form">
+        <label for="gnome-name">Nome do Gnomo:</label>
+        <input type="text" id="gnome-name" required>
+
+        <label for="gnome-type">Tipo de Gnomo:</label>
+        <select id="gnome-type">
+            <option value="veloz">Veloz</option>
+            <option value="azarado">Azarado</option>
+        </select>
+
+        <label for="hat-color">Cor do Chapéu:</label>
+        <select id="hat-color">
+            <option value="vermelho">Vermelho (+ sorte)</option>
+            <option value="azul">Azul (sorte normal)</option>
+            <option value="preto">Preto (- sorte)</option>
+        </select>
+
+        <button type="submit">Adicionar Gnomo</button>
+    </form>
+    <br>
+    <button id="start-race-btn">Iniciar Corrida</button>
+    <script src="seu_script.js"></script>
+</body>
+</html>
